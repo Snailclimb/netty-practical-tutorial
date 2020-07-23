@@ -19,26 +19,39 @@
 1. 运行于服务器端的 Server Socket。
 2. 运行于客户机端的 Client Socket
 
-**传统的客户端和服务的 BIO 的通信模式的步骤如下：**
+Socket 网络通信过程如下图所示：
 
-服务器端：
+![](../pictures/socket-network-communication-process.png)
 
-1. 创建 `ServerSocket` 对象并且绑定一个端口
-2. 通过 `accept()`方法监听客户端请求， `accept()`方法会一直阻塞到有一个连接建立
+<p style="text-align:right;font-size:13px;color:gray">https://www.javatpoint.com/socket-programming</p>
+
+**Socket 网络通信过程简单来说分为下面 4 步：**
+
+1. 建立服务端并且监听客户端请求
+2. 客户端请求，服务端和客户端建立连接
+3. 两端之间可以传递数据
+4. 关闭资源
+
+对应到服务端和客户端的话，是下面这样的。
+
+**服务器端：**
+
+1. 创建 `ServerSocket` 对象并且绑定地址（ip）和端口号(port)：` server.bind(new InetSocketAddress(host, port))`
+2. 通过 `accept()`方法监听客户端请求
 3. 连接建立后，通过输入流读取客户端发送的请求信息
 4. 通过输出流向客户端发送响应信息
 5. 关闭相关资源
 
-客户端：
+**客户端：**
 
-1. 创建 `Socket` 对象并且指定服务器的地址和端口号
+1. 创建`Socket` 对象并且连接指定的服务器的地址（ip）和端口号(port)：`socket.connect(inetSocketAddress)`
 2. 连接建立后，通过输出流向服务器端发送请求信息
 3. 通过输入流获取服务器响应的信息
-4. 关闭相关资源
+4. 关闭相关资源  
 
 ### 一个简单的 demo
 
-**为了便于理解，我写了一个简单的代码帮助各位老铁理解一下。**
+**为了便于理解，我写了一个简单的代码帮助各位小伙伴理解。**
 
 **服务端：**
 
@@ -292,6 +305,8 @@ NIO 包含下面几个核心的组件：
 
 RPC 框架源码已经开源了,地址：[https://github.com/Snailclimb/guide-rpc-framework](https://github.com/Snailclimb/guide-rpc-framework)
 
-Guide 的星球正在更新《从零开始手把手教你实现一个简单的 RPC 框架》，目前的话已经更新 6 节了。
+Guide 的星球正在更新《从零开始手把手教你实现一个简单的 RPC 框架》。
 
-![](https://imgkr.cn-bj.ufileos.com/69106ca6-534c-46d8-9c01-acd970f24999.png)
+扫描下方二维码关注“JavaGuide”后回复 “星球”。
+
+![javaguide](../pictures/javaguide.png)
