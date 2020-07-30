@@ -3,7 +3,7 @@
 
 
 1. [从 BIO、NIO 聊到 Netty，最后还要实现个 RPC 框架！](./docs/1-fromBIO&NIOToNetty.md)
-2. Netty线程模型
+2. [Netty线程模型](./docs/2-Netty线程模型.md)
 3. Netty版 Hello World+代码分析
 4. Netty 核心组件分析
 5. Netty TCP粘包和拆包问题分析和解决
