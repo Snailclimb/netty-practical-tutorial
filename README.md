@@ -1,8 +1,7 @@
 # netty-practical-tutorial
 
 1. [从 BIO、NIO 聊到 Netty，最后还要实现个 RPC 框架！](./docs/1-fromBIO&NIOToNetty.md)
-2. [Netty线程模型](./docs/2-Netty线程模型.md)
-3. Netty版 Hello World+代码分析
+3. [第一个 Netty 应用](./docs/2-Netty版的HelloWorld.md)
 4. Netty 核心组件分析
 5. Netty TCP粘包和拆包问题分析和解决
 6. Netty零拷贝
