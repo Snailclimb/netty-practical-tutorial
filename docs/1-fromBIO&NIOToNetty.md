@@ -1,3 +1,5 @@
+[大家好，我是**「后端技术进阶」**作者，一个热爱技术的少年。](https://www.yuque.com/docs/share/aaa50642-c892-4c41-8c0c-9d2fc2b0d93c?# 《走进后端技术进阶》)
+
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
@@ -20,7 +22,7 @@
 
 <!-- /code_chunk_output -->
 
-> Netty 从入门到实战系列文章地址：
+> Netty 从入门到实战系列文章地址：[https://github.com/Snailclimb/netty-practical-tutorial](https://github.com/Snailclimb/netty-practical-tutorial) 。
 
 老套路，学习某一门技术或者框架的时候，第一步当然是要了解下面这几样东西。
 
