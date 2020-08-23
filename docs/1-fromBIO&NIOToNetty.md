@@ -1,4 +1,3 @@
-
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
@@ -21,7 +20,7 @@
 
 <!-- /code_chunk_output -->
 
-
+> Netty 从入门到实战系列文章地址：
 
 老套路，学习某一门技术或者框架的时候，第一步当然是要了解下面这几样东西。
 
