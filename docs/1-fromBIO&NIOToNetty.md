@@ -1,4 +1,4 @@
-[大家好，我是**「后端技术进阶」**作者，一个热爱技术的少年。](https://www.yuque.com/docs/share/aaa50642-c892-4c41-8c0c-9d2fc2b0d93c?#%20%E3%80%8A%E8%B5%B0%E8%BF%9B%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%BF%9B%E9%98%B6%E3%80%8B)
+[大家好，我是 **「后端技术进阶」** 作者，一个热爱技术的少年。](https://www.yuque.com/docs/share/aaa50642-c892-4c41-8c0c-9d2fc2b0d93c?#%20%E3%80%8A%E8%B5%B0%E8%BF%9B%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%BF%9B%E9%98%B6%E3%80%8B)
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
@@ -283,7 +283,7 @@ NIO 包含下面几个核心的组件：
 
 很少使用 NIO，很大情况下也是因为使用 NIO 来创建正确并且安全的应用程序的开发成本和维护成本都比较大。所以，一般情况下我们都会使用 Netty 这个比较成熟的高性能框架来做（Apace Mina 与之类似，但是 Netty 使用的更多一点）。
 
-![](../pictures/Nio-Server.png)
+![](../pictures/nio-server.png)
 
 ## 重要角色 Netty 登场
 
