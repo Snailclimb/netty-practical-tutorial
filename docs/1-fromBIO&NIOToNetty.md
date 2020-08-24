@@ -22,7 +22,10 @@
 
 <!-- /code_chunk_output -->
 
-> Netty 从入门到实战系列文章地址：[https://github.com/Snailclimb/netty-practical-tutorial](https://github.com/Snailclimb/netty-practical-tutorial) 。
+> 觉得不错的话，欢迎 star！ღ( ´･ᴗ･` )比心
+>
+> - Netty 从入门到实战系列文章地址：[https://github.com/Snailclimb/netty-practical-tutorial](https://github.com/Snailclimb/netty-practical-tutorial) 。
+> - RPC 框架源码地址：[https://github.com/Snailclimb/guide-rpc-framework](https://github.com/Snailclimb/guide-rpc-framework)
 
 老套路，学习某一门技术或者框架的时候，第一步当然是要了解下面这几样东西。
 
