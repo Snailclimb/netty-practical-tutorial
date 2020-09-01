@@ -1,3 +1,4 @@
+[大家好，我是 **「后端技术进阶」** 作者，一个热爱技术的少年。](https://www.yuque.com/docs/share/aaa50642-c892-4c41-8c0c-9d2fc2b0d93c?#%20%E3%80%8A%E8%B5%B0%E8%BF%9B%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%BF%9B%E9%98%B6%E3%80%8B)
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
@@ -14,6 +15,11 @@
 
 <!-- /code_chunk_output -->
 
+> 觉得不错的话，欢迎 star！ღ( ´･ᴗ･` )比心
+>
+> - Netty 从入门到实战系列文章地址：[https://github.com/Snailclimb/netty-practical-tutorial](https://github.com/Snailclimb/netty-practical-tutorial) 。
+> - RPC 框架源码地址：[https://github.com/Snailclimb/guide-rpc-framework](https://github.com/Snailclimb/guide-rpc-framework)
+
 
 下面，我会带着大家搭建自己的第一个 Netty 版的 Hello World 小程序。
 
@@ -23,7 +29,7 @@
 
 我们可以通过 `ServerBootstrap` 来引导我们启动一个简单的 Netty 服务端，为此，你必须要为其指定下面三类属性：
 
-1. **线程组**（_一般需要两个线程组，一个负责接处理客户端的连接，一个负责具体的 IO 处理_）
+1. **线程组**（_一般需要两个线程组，一个负责处理客户端的连接，一个负责具体的 IO 处理_）
 2. **IO 模型**（_BIO/NIO_）
 3. **自定义 `ChannelHandler`** （_处理客户端发过来的数据并返回数据给客户端_）
 

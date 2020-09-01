@@ -310,6 +310,17 @@ NIO 包含下面几个核心的组件：
 - 成熟稳定，经历了大型项目的使用和考验，而且很多开源项目都使用到了 Netty 比如我们经常接触的 Dubbo、RocketMQ 等等。
 - ......
 
+## Netty架构总览
+
+下面是Netty的模块设计部分：
+
+![Netty架构总览](../pictures/Netty架构总览.png)
+
+Netty提供了通用的传输API（TCP/UDP...）；多种网络协议（HTTP/WebSocket...）；基于事件驱动的IO模型；
+超高性能的零拷贝...
+
+上面说的这些模块和功能只是Netty的一部分，具体的组件在后面的部分会有较为详细的介绍。
+
 ## 使用 Netty 能做什么？
 
 这个应该是老铁们最关心的一个问题了，凭借自己的了解，简单说一下，理论上 NIO 可以做的事情 ，使用 Netty 都可以做并且更好。Netty 主要用来做**网络通信** :
@@ -329,6 +340,27 @@ NIO 包含下面几个核心的组件：
 实际上还有很多很多优秀的项目用到了 Netty,Netty 官方也做了统计，统计结果在这里：[https://netty.io/wiki/related-projects.html](https://netty.io/wiki/related-projects.html) 。
 
 ![](../pictures/netty-related-projects.png)
+
+## Netty 学习指南
+
+学习Netty，相信大部分小伙伴都会选择 《Netty in Action》 和  《Netty 4.x User Guide 》，
+这里我推荐它们的通读版本，这二本书的通读版本的作者都为同一人，通读版本对《Netty in Action》做出了更为精简的概述，
+所以各位小伙伴可酌情挑选阅读。
+
+- [《Netty in Action》](https://waylau.com/essential-netty-in-action/index.html)
+
+- [《Netty 4.x User Guide》](https://waylau.gitbooks.io/netty-4-user-guide/content)
+
+其次我认为只看书是不够的，这里我推荐一些关于Netty入门比较优秀的视频供各位小伙伴参考，
+推荐视频观看的顺序即下列顺序，各位小伙伴不需要每个视频的每个章节都看，只需要挑选互补的内容学习即可：
+
+- [韩顺平Netty教程](https://www.bilibili.com/video/BV1DJ411m7NR)
+
+- [张龙Netty教程](https://www.bilibili.com/video/BV1cb411F7En)
+
+- [索南杰夕Netty RPC实现](https://www.bilibili.com/video/BV1Rb411h7jZ)
+
+最后，在学习Netty之前，我们需要对 IO模型(网络IO模型)有一个大概的认知。
 
 ## 后记
 

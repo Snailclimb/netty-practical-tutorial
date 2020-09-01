@@ -11,11 +11,15 @@
 **《Netty 从入门到实战》系列文章：**
 
 1. [从 BIO、NIO 聊到 Netty，最后还要实现个 RPC 框架！](./docs/1-fromBIO&NIOToNetty.md)
-3. [手把手教你实现自己的第一个 Netty 应用](./docs/2-Netty版的HelloWorld.md)
-4. [大白话 Netty 核心组件分析](./docs/3-Netty核心组件分析.md)
-5. Netty TCP粘包和拆包问题分析和解决
-6. Netty零拷贝
-7. Netty+Kyro序列化实战
-8. [从零开始带你写一个RPC框架！毕设/项目经验首选！](https://mp.weixin.qq.com/s/Avq4JBT-6-Dxgl7q8M251Q)
-9. Netty常见面试总结
+2. [手把手教你实现自己的第一个 Netty 应用](./docs/2-Netty版的HelloWorld.md)
+3. [大白话 Netty 核心组件分析](./docs/3-Netty核心组件分析.md)
+4. Netty TCP粘包和拆包问题分析和解决
+5. Netty零拷贝
+6. Netty+Kyro序列化实战
+7. [从零开始带你写一个RPC框架！毕设/项目经验首选！](https://mp.weixin.qq.com/s/Avq4JBT-6-Dxgl7q8M251Q)
+8. Netty常见面试总结
+
+其他相关推荐
+
+1. [Netty 指南](https://github.com/guang19/framework-learning#netty) 
 
