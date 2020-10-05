@@ -119,6 +119,8 @@ ChannelPipeline p = ...;
 
 **通过 Netty，我们可以很方便地使用少量代码构建一个可以正确处理 GET 请求和 POST 请求的轻量级 HTTP Server。**
 
+源代码地址：[https://github.com/Snailclimb/netty-practical-tutorial/tree/master/example/http-server](https://github.com/Snailclimb/netty-practical-tutorial/tree/master/example/http-server)
+
 ### 创建服务端
 
 ```java
