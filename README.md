@@ -16,8 +16,9 @@
 4. Netty TCP粘包和拆包问题分析和解决
 5. Netty零拷贝
 6. Netty+Kyro序列化实战
-7. [从零开始带你写一个RPC框架！毕设/项目经验首选！](https://mp.weixin.qq.com/s/Avq4JBT-6-Dxgl7q8M251Q)
-8. Netty常见面试总结
+7. [手写“SpringBoot”：几十行代码使用Netty 搭建一个 HTTP Server](./example/http-server/README.md)
+8. [从零开始带你写一个RPC框架！毕设/项目经验首选！](https://mp.weixin.qq.com/s/Avq4JBT-6-Dxgl7q8M251Q)
+9. [Netty常见面试总结](https://xiaozhuanlan.com/topic/4028536971)
 
 其他相关推荐
 

@@ -38,12 +38,6 @@
             <artifactId>commons-codec</artifactId>
             <version>1.14</version>
         </dependency>
-        <!--commons-codec-->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.11.2</version>
-        </dependency>
     </dependencies>
 
 </project>

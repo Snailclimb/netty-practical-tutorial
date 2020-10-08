@@ -1,3 +1,5 @@
+>本文已经收录进 : [https://github.com/Snailclimb/netty-practical-tutorial](https://github.com/Snailclimb/netty-practical-tutorial) (Netty从入门到实战：手写HTTP Server+RPC框架)。
+
 目前正在写的一个叫做 [jsoncat](https://github.com/Snailclimb/jsoncat) 的轻量级 HTTP 框架内置的 HTTP 服务器是我自己基于 Netty 写的，所有的核心代码加起来不过就几十行。这得益于 Netty 提供的各种开箱即用的组件，为我们节省了太多事情。
 
 这篇文章我会手把手带着小伙伴们实现一个简易的 HTTP Server。
@@ -119,7 +121,44 @@ ChannelPipeline p = ...;
 
 **通过 Netty，我们可以很方便地使用少量代码构建一个可以正确处理 GET 请求和 POST 请求的轻量级 HTTP Server。**
 
-源代码地址：[https://github.com/Snailclimb/netty-practical-tutorial/tree/master/example/http-server](https://github.com/Snailclimb/netty-practical-tutorial/tree/master/example/http-server)
+源代码地址：[https://github.com/Snailclimb/netty-practical-tutorial/tree/master/example/http-server](https://github.com/Snailclimb/netty-practical-tutorial/tree/master/example/http-server) 。
+
+### 添加所需依赖到pom.xml
+
+第一步，我们需要将实现 HTTP Server 所必需的第三方依赖的坐标添加到 `pom.xml`中。
+
+```xml
+<!--netty-->
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-all</artifactId>
+    <version>4.1.42.Final</version>
+</dependency>
+<!-- log -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>1.7.25</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.7.25</version>
+</dependency>
+<!-- lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.8</version>
+    <scope>provided</scope>
+</dependency>
+<!--commons-codec-->
+<dependency>
+    <groupId>commons-codec</groupId>
+    <artifactId>commons-codec</artifactId>
+    <version>1.14</version>
+</dependency>
+```
 
 ### 创建服务端
 
