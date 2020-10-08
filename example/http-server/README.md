@@ -1,4 +1,6 @@
 >本文已经收录进 : [https://github.com/Snailclimb/netty-practical-tutorial](https://github.com/Snailclimb/netty-practical-tutorial) (Netty从入门到实战：手写HTTP Server+RPC框架)。
+>
+>相关项目：https://github.com/Snailclimb/jsoncat （仿 Spring Boot 但不同于 Spring Boot 的一个轻量级的 HTTP 框架）
 
 目前正在写的一个叫做 [jsoncat](https://github.com/Snailclimb/jsoncat) 的轻量级 HTTP 框架内置的 HTTP 服务器是我自己基于 Netty 写的，所有的核心代码加起来不过就几十行。这得益于 Netty 提供的各种开箱即用的组件，为我们节省了太多事情。
 
@@ -336,7 +338,7 @@ response.headers().setInt(CONTENT_LENGTH, response.content().readableBytes());
 
 ### 请求的具体处理逻辑实现
 
-因为有这里有 POST 请求和 GET 请求。因此我们需要首先定义一个处理 HTTP Request 的接口。
+因为这里要分别处理 POST 请求和 GET 请求。因此我们需要首先定义一个处理 HTTP Request 的接口。
 
 ```java
 public interface RequestHandler {
@@ -466,7 +468,7 @@ public class HttpServerApplication {
 
 #### POST 请求
 
-![image-20201004223049712](http://javaguide.cn/2020-09/image-20201004223049712.png)
+![](http://javaguide.cn/2020-09/image-20201004223049712.png)
 
 ## 参考
 
