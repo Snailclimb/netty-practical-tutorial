@@ -153,7 +153,7 @@ public class HelloClient {
 
     public static void main(String[] args) {
         HelloClient helloClient = new HelloClient();
-        helloClient.send(new Message("content from client"), "127.0.0.1", 6666);
+        Message message = (Message) helloClient.send(new Message("content from client"), "127.0.0.1", 6666);
         System.out.println("client receive message:" + message.getContent());
     }
 }
