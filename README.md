@@ -13,12 +13,10 @@
 1. [从 BIO、NIO 聊到 Netty，最后还要实现个 RPC 框架！](./docs/1-fromBIO&NIOToNetty.md)
 2. [手把手教你实现自己的第一个 Netty 应用](./docs/2-Netty版的HelloWorld.md)
 3. [大白话 Netty 核心组件分析](./docs/3-Netty核心组件分析.md)
-4. Netty TCP粘包和拆包问题分析和解决
-5. Netty零拷贝
-6. Netty+Kyro序列化实战
+6. [Netty+Kyro序列化实战](./docs/netty-kyro.md)
 7. [手写“SpringBoot”：几十行代码使用Netty 搭建一个 HTTP Server](./example/http-server/README.md)
 8. [从零开始带你写一个RPC框架！毕设/项目经验首选！](https://mp.weixin.qq.com/s/Avq4JBT-6-Dxgl7q8M251Q)
-9. [Netty常见面试总结](https://xiaozhuanlan.com/topic/4028536971)
+9. [Netty常见面试总结](https://javaguide.cn/system-design/framework/netty/)
 
 其他相关推荐
 
